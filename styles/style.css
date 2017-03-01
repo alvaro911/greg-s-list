@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+html,body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato';
+}
+
+a{
+  text-decoration: none;
+  color:#2d6de8;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+nav{
+  width: 100%;
+  height: auto;
+  padding:1.2em 0;
+  background-color: #bfbfbf;
+  display: flex;
+  flex-direction: row;
+}
+
+h2{
+  font-size: 20px;
+  margin: auto 41px;
+  flex-grow: 1;
+}
+
+ul{
+  list-style: none;
+  margin: auto;
+}
+
+li{
+  display: inline;
+  margin: 0 26px;
+}
+
+main{
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+}
+
+form{
+  width:50%;
+  height: auto;
+  margin:2em 0;
+  position: relative;
+}
+
+input,button, .list_btn{
+  border-radius: 4px;
+}
+
+input{
+  width: 83%;
+  height: 40px;
+  border: 1px solid black;
+  padding:.3em;
+}
+
+button{
+  width: 40px;
+  margin-left: 1%;
+  border: 1px solid black;
+  background-color: white;
+  height: 40px;
+  position: absolute;
+  bottom: 0;
+}
+
+button img{
+  width: 110%;
+}
+
+.list_btn{
+  width:33%;
+  height: 33px;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  font-size: .9em;
+  border:1px solid black;
+  text-align: center;
+  align-items: center;
+}
+
+.cont{
+  width: 50%;
+}
+
+.prev{
+  border-right: 1px solid black;
+}
+
+.next{
+  border-left: 1px solid black;
+}
+
+.prev,.next{
+  width: 25%;
+}
+
+.list{
+  margin:45px 0;
+}
+
+p{
+  color: #bfbfbf;
+}
+
+span{
+  color:#2d6de8;
+  margin:0 6px
+}
